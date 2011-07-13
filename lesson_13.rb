@@ -12,3 +12,7 @@ massiv.push -10
 massiv.each do |element|
   puts "Element of massiv: " + element.to_s
 end
+
+massiv.each { |element|
+  puts "Element of massiv: " + element.to_s
+}
