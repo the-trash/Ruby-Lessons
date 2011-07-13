@@ -3,7 +3,9 @@
 puts `clear`
 
 class Person
+  attr :name, true
 
+=begin
   @name = nil
 
   def name
@@ -13,10 +15,11 @@ class Person
   def name= str
     @name = str
   end
+=end
 
 end
 
 person_1 = Person.new
 
-puts person_1.name = 'Ivan'
+person_1.name = 'Ivan'
 puts person_1.name
