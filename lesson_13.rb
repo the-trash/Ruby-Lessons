@@ -13,6 +13,8 @@ massiv.each do |element|
   puts "Element of massiv: " + element.to_s
 end
 
+puts
+
 massiv.each { |element|
   puts "Element of massiv: " + element.to_s
 }
