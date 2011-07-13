@@ -3,6 +3,7 @@
 massiv = [1,5,89,7,4,11,27]
 
 puts massiv
+puts massiv.join(', ')
 
 puts
 
