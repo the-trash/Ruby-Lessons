@@ -26,3 +26,9 @@ end
 puts Pig.description
 puts Pig.weight
 puts Pig.voice
+
+puts
+
+puts Pig::description
+puts Pig::weight
+puts Pig::voice
