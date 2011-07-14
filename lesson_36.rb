@@ -47,3 +47,4 @@ puts
 
 # puts Person.total_cash # it's protected
 puts Person.total_cash_with_password 'qwerty'
+puts Person.total_cash_with_password 'qazwsx'
