@@ -9,7 +9,11 @@ class Person
   
   attr_accessor :name, :surname, :age
   
-  def initialize(min, max)
+  def initialize(max= 50, min= 10)
+    puts "min is " + min.to_s
+    puts "max is " + max.to_s
+    puts
+
     @name = Person::NAMES.shuffle.first
     @surname = Person::SURNAMES.shuffle.first
     @age = rand(max) + min
@@ -17,8 +21,10 @@ class Person
 
 end
 
-person_1 = Person.new
-person_2 = Person.new
+person_1 = Person.new(60, 15)
+person_2 = Person.new 40
+person_3 = Person.new
 
 puts person_1.inspect
 puts person_2.inspect
+puts person_3.inspect
