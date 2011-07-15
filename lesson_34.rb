@@ -7,7 +7,7 @@ class Person
   NAMES = ['John', 'Jan', 'Stephan', 'Mary', 'Clode', 'Sharlin', 'Nick']
   SURNAMES = ['Smith', 'Daw', 'Simpson', 'Strawinsky', 'Allban', 'Crow', 'Rurk']
   
-  attr_accessor :name, :surname, :age
+  attr_accessor 'name', 'surname', 'age'
   
   def initialize(max= 50, min= 10)
     puts
@@ -26,7 +26,7 @@ class Worker < Person
 end
 
 class Boss < Person
-  attr_accessor :status
+  attr_accessor 'status'
 
   def initialize(max= 50, min= 10)
     @status = ['on', 'off'].shuffle.first

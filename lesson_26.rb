@@ -3,7 +3,7 @@
 puts `clear`
 
 class Person
-  attr :name, true
+  attr 'name', true
 
 =begin
   @name = nil

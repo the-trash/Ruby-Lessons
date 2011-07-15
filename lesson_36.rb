@@ -16,8 +16,8 @@ class Animal
 end
 
 class Person
-  attr_accessor :money, :emotions, :speech
-
+  attr_accessor 'money', 'emotions', 'speech'
+  
   def initialize
     @money = rand(10000)
     @emotions = ['bad', 'sad', 'fun', 'happy'].shuffle.first
@@ -36,13 +36,13 @@ class Person
   end
 
   # public is default
-  public :emotions, :emotions=
+  public 'emotions', 'emotions='
 
   # only for self, not for any Person or anyone
-  private :money, :money=
+  private 'money', 'money='
 
   # for every Person and self
-  protected :speech, :speech=
+  protected 'speech', 'speech='
 end
 
 mr_bill = Person.new

@@ -7,7 +7,7 @@ class Person
   NAMES = ['John', 'Jan', 'Stephan', 'Mary', 'Clode', 'Sharlin', 'Nick']
   SURNAMES = ['Smith', 'Daw', 'Simpson', 'Strawinsky', 'Allban', 'Crow', 'Rurk']
   
-  attr_accessor :name, :surname, :age
+  attr_accessor 'name', 'surname', 'age'
   
   def initialize
     @name = Person::NAMES.shuffle.first

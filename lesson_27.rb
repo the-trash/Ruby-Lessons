@@ -4,9 +4,9 @@ puts `clear`
 
 class Person
 
-  attr :name, true
-  attr :surname, true
-  attr :age, true
+  attr 'name', true
+  attr 'surname', true
+  attr 'age', true
 
 end
 

@@ -4,7 +4,7 @@ puts `clear`
 
 class Person
 
-  attr_accessor :name, :surname, :age
+  attr_accessor 'name', 'surname', 'age'
 
 end
 

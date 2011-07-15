@@ -7,7 +7,7 @@ class Person
   NAMES = ['John', 'Jan', 'Stephan', 'Mary', 'Clode', 'Sharlin', 'Nick']
   SURNAMES = ['Smith', 'Daw', 'Simpson', 'Strawinsky', 'Allban', 'Crow', 'Rurk']
   
-  attr_accessor :name, :surname, :age, :money
+  attr_accessor 'name', 'surname', 'age', 'money'
   
   def initialize(max= 50, min= 10)
     puts
@@ -43,5 +43,3 @@ puts person_1.inspect
 puts person_1.fullname
 # puts person_1.money # sorry, private method 'money' => NoMethodError
 puts person_1.special_money_mehod
-
-
