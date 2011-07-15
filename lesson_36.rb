@@ -24,6 +24,7 @@ class Person
     @speech = ['Hello', 'Good day!', 'Hi!', 'Oh! Hello, man!', 'Wow! How are you!'].shuffle.first
   end
 
+  # getter
   def know_money(password)
     return @money.to_s + '$' if password == 'qwerty'
     "Hey, what are you doing?"
