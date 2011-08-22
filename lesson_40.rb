@@ -20,9 +20,7 @@ puts Dir.pwd
 file = File.open('test.txt', 'w')
 
 # Write to file
-file.puts "XXX\nYYY\n"
-file.puts "XXX\nYYY\n"
-file.puts "XXX\nYYY\n"
+file.puts "XXX\nYYY\n" * 3
 
 # Close file
 file.close

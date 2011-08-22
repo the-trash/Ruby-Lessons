@@ -27,6 +27,6 @@ puts
 
 some_string_2 = <<-RUBY
   bla bla #{some_string}
-RUBY
+    RUBY
 
 puts some_string_2

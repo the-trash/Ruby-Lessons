@@ -16,5 +16,5 @@ puts massiv
 
 puts
 
-massiv.shuffle! # massiv = massiv.shuffle!
+massiv.shuffle! # massiv = massiv.shuffle
 puts massiv

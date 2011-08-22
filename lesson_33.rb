@@ -11,12 +11,12 @@ class Pig
     end
   end
 
-  #varaint 2
+  # varaint 2
   def Pig.weight
     "Pigs are heavy!"
   end
 
-  #varaint 3
+  # varaint 3
   def self.voice
     "Hreu Hreu"
   end
